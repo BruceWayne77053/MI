@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muneeb Iqbal's portfolio as a Machine Learning Engineer, showcasing AI, machine learning, and data science projects." />
+  <title>Muneeb Iqbal | Machine Learning Engineer</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">MI<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false"
+      aria-controls="nav-links">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">
+          <span class="status-dot"></span>
+          MACHINE LEARNING ENGINEER
+        </span>
+
+        <h1>Hi, I'm <span>Muneeb Iqbal.</span></h1>
+
+        <h2>I turn data into intelligent solutions.</h2>
+
+        <p class="hero-description">
+          I build machine learning models, explore data, and develop
+          AI-powered solutions that solve real-world problems.
+          I'm passionate about making technology smarter and more useful.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Machine learning illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="brain-card">
+          <span class="brain-icon">⌘</span>
+          <p>Artificial Intelligence</p>
+          <div class="brain-line"></div>
+          <div class="brain-tags">
+            <span>ML</span>
+            <span>AI</span>
+            <span>DATA</span>
+          </div>
+        </div>
+
+        <span class="float-tag tag-top">Python</span>
+        <span class="float-tag tag-bottom">Neural Networks</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">GET TO KNOW ME</span>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-mark">MI<span>.</span></div>
+
+        <div>
+          <h3>Curious mind. Data-driven approach.</h3>
+          <p>
+            I'm Muneeb Iqbal, a machine learning engineer interested in
+            artificial intelligence, predictive analytics, and building
+            practical software solutions from data.
+          </p>
+          <p>
+            My approach combines analytical thinking, experimentation,
+            and continuous learning to turn complex problems into
+            understandable and useful results.
+          </p>
+          <p>
+            I enjoy exploring new technologies and creating projects
+            that bring machine learning from theory into practice.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <span class="eyebrow">MY TOOLKIT</span>
+        <h2>Skills & <span>Technologies</span></h2>
+        <p>Technologies and concepts I work with and continue to explore.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">Py</div>
+          <h3>Python</h3>
+          <p>Data processing and model development</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">ML</div>
+          <h3>Machine Learning</h3>
+          <p>Regression, classification, and clustering</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">AI</div>
+          <h3>Deep Learning</h3>
+          <p>Neural networks and model experimentation</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">DB</div>
+          <h3>Data Science</h3>
+          <p>Data cleaning, analysis, and visualization</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">SK</div>
+          <h3>Scikit-learn</h3>
+          <p>Model training and evaluation</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">SQL</div>
+          <h3>SQL & Tools</h3>
+          <p>Data querying, notebooks, and Git</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <span class="eyebrow">SELECTED WORK</span>
+        <h2>Featured <span>Projects</span></h2>
+        <p>Sample projects demonstrating practical machine learning applications.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-purple">
+            <span class="project-number">01</span>
+            <span class="project-symbol">⌁</span>
+            <span class="visual-label">PREDICTIVE ANALYTICS</span>
+          </div>
+          <div class="project-body">
+            <h3>House Price Prediction</h3>
+            <p>
+              A regression model that estimates property prices from
+              features such as location, size, and number of rooms.
+            </p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Scikit-learn</span>
+            </div>
+            <a class="project-link"
+               href="https://github.com/" target="_blank"
+               rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-blue">
+            <span class="project-number">02</span>
+            <span class="project-symbol">◎</span>
+            <span class="visual-label">NATURAL LANGUAGE PROCESSING</span>
+          </div>
+          <div class="project-body">
+            <h3>Sentiment Analysis</h3>
+            <p>
+              A text classification project that identifies positive,
+              negative, or neutral sentiment in customer reviews.
+            </p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>NLP</span>
+              <span>NLTK</span>
+            </div>
+            <a class="project-link"
+               href="https://github.com/" target="_blank"
+               rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-green">
+            <span class="project-number">03</span>
+            <span class="project-symbol">⌘</span>
+            <span class="visual-label">COMPUTER VISION</span>
+          </div>
+          <div class="project-body">
+            <h3>Image Classification</h3>
+            <p>
+              An image classification prototype using a convolutional
+              neural network to recognize categories in images.
+            </p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>CNN</span>
+            </div>
+            <a class="project-link"
+               href="https://github.com/" target="_blank"
+               rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="project-note">
+        Note: These are example project descriptions. Replace them with
+        your actual projects and repository links before publishing.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+      <h2>Let's build something <span>intelligent.</span></h2>
+      <p>
+        Interested in machine learning, AI, or collaborating on a project?
+        I'd love to hear from you.
+      </p>
+
+      <!-- Replace this example address with your real email -->
+      <a class="btn btn-primary email-button"
+         href="mailto:muneeb.iqbal@example.com">
+        ✉ Contact Muneeb
+      </a>
+
+      <p class="email-address">
+        <a href="mailto:muneeb.iqbal@example.com">
+          muneeb.iqbal@example.com
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">MI<span>.</span></a>
+    <p>Designed & built by Muneeb Iqbal.</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
